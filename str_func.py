@@ -1,10 +1,6 @@
 
 
 def func_upper(text: str):
-    """"Функция делающая первые буквы заглавными"""
+    """Функция преобразующая текс в заглавние буквы"""
     return text.upper()
 
-
-def func_title(text: str):
-    """Функция преобразовывающая все буквы в заглавные """
-    return ' '.join([x.title() for x in text.split(' ')])
